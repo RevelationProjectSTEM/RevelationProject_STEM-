@@ -11,7 +11,29 @@
             margin: 0;
             padding: 0;
         }
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
 
+.social-button {
+    display: inline-block;
+    padding: 10px 18px;
+    border: 1px solid #555;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    background: #1c1c1c;
+}
+
+.social-button:hover {
+    background: #333;
+}
         body {
             font-family: Arial, sans-serif;
             background: #f8f8f8;
@@ -130,9 +152,21 @@
 <body>
 
 <header>
-    <img src="file_00000000a6bc820a89bc83edc37169fd.png" alt="Revelation Project Logo" class="logo">
+    <img src="logo.png" alt="Revelation Project Logo" class="logo">
+
     <h1>REVELATION PROJECT</h1>
+
     <p>Science • Discovery • Theology</p>
+
+    <div class="social-buttons">
+        <a href="https://www.instagram.com/revelationprojectstem?igsh=Ym9kMjVqbThoMXh6" class="social-button">
+            Instagram
+        </a>
+
+        <a href="https://youtube.com/@revelationproject_stem?si=PxXTrqpsxHLMbuQq" class="social-button">
+            YouTube
+        </a>
+    </div>
 </header>
 
 <nav>
